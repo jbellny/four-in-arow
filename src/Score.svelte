@@ -3,7 +3,7 @@
     import type { PlayerId } from "./types"
 
     export let score: number
-    export let player: PlayerID
+    export let player: PlayerId
 
     $: color = COLORS[player]
 </script>
